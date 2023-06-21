@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# https://github.com/telos-matter/line
+# 2023_06, HEMMOUDA Aymane
+
+usage () {
+    echo
+    echo "Line, displays a specific line from an input"
+    echo "Usage: line <line_number> [file]"
+    echo
+    echo "It's literally just this:"
+    echo 'head -n $1 $2 | tail -n 1'
+    echo
+}
+
+if [ $# -gt 0 ]
+then
+    head -n $1 $2 | tail -n 1
+else
+    usage
+fi
