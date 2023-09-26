@@ -1,4 +1,4 @@
-# Line
+# Line &nbsp; ![DEVELOPMENT STATUS: complete](https://badgen.net/badge/DEVELOPMENT%20STATUS/complete/green)
 
 A simple bash script to display a specific line from a file or input
 
